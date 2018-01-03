@@ -20,7 +20,7 @@ SRC = $(addprefix $(SRC_PATH)/,$(SRC_NAME))
 
 INC = libft/libft.a
 
-CCFLAG = gcc -Wall -Werror -Wextra
+CCFLAG = gcc -Ofast -flto -march=native -Wall -Werror -Wextra
 
 LIB_FLAG = libft/libft.a minilibx_macos/libmlx.a
 
